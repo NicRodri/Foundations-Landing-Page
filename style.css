@@ -4,19 +4,23 @@ body {
 #header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
 }
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
     font-family: roboto;
+    padding-left: 15%;
 }
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-right: 15%;
 }
 a{
     color: #E5E7EB;
@@ -24,3 +28,53 @@ a{
     text-decoration: none;
     font-family: roboto;
 }
+#container1{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 20px;
+}
+#subcontainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img{
+    max-width: 50%;
+    height: auto;
+    width: auto;
+    object-fit: fill;
+
+}
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: roboto;
+    margin: 0px 0px;
+}
+.subtext1{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: roboto;
+    margin: 10px 0px;
+    
+}
+.signup{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    align-self: flex-start;
+    font-size: 18px;
+    font-family: roboto,'Times New Roman', Times, serif;
+}
+
